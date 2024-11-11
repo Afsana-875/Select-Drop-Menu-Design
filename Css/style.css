@@ -1,0 +1,77 @@
+/* All Common Css Here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul ol li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    background: linear-gradient(45deg,#1d0000,#20205b);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Roboto", serif; */
+/* All Common Css Here End */
+
+.selector{
+width: 350px;
+}
+#slectfileld{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius:10px ;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255 ,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+#slectfileld img{
+    width: 12px;
+    transition: transform 0.4s;
+}
+#list{
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255 ,0.7);
+    overflow: hidden;
+    border-radius: 15px;
+   
+}
+.options{
+    width: 100%;
+    padding: 15px 0 15px 70px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.options img{
+    width: 25px;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
+.options:hover{
+    background-color:teal ;
+}
+.hide{
+    visibility: hidden;
+}  
+.rotate{
+    transform: rotate(180deg);
+}
